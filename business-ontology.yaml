@@ -4,7 +4,7 @@ meta:
   review_of: a1ae63bb-e807-403b-b519-00f15fe8b49a
   import_mode: manual_yaml
   source_sha256: fc63b28958a292918871a5dac3d934a62637e4b8ea6ed3781207dfc91e4e5373
-  evidence_digest: 2865dcf4f946deac98d4ce6d5cf3c374e8b13a1f44dbb3fb99e38e1236934595
+  evidence_digest: 856fc867e064ff76f4a8eccca7af678dfa3cf9ec90a1a91fbcab1d4a12dd27fc
   source_filename: business-ontology (2) (2).yaml
   reused_from_package: 9daaa870-6456-452e-b796-de1468c84184
 legends:
@@ -34,7 +34,7 @@ legends:
     etc.), target column and expression. Missing source decisions leave implementation
     null
 sources:
-- id: requirement:1a694680-818b-4f1d-981b-ae3189d6043a
+- id: requirement:d9f777b3-2805-4d44-a23c-d26573a7c8be
   row: 0
   kind: declared
   text: "Final Testing\n[Epic] SCRUM-75 UC5 — Hotel performance reporting and KPIs\n\
@@ -1583,7 +1583,7 @@ sources:
 governance:
   demo_acceptance:
     scope: assumption_acceptance
-    accepted_at: '2026-09-18T06:14:24.633369+00:00'
+    accepted_at: '2026-09-18T06:33:13.027730+00:00'
     accepted_by: sumit.tech03@gmail.com
     definition_count: 251
 canonical_layer:
@@ -6813,7 +6813,7 @@ business_rules_register:
   - ontology-upload:fc63b28958a292918871
   implementation: null
   required_for_delivery: true
-- id: unresolved.ccaaf36aee51d1af9b44
+- id: unresolved.bd46b456689f4dd8adc2
   name: Review Jira / Requirement row 0
   unit: ''
   grain: ''
@@ -6893,7 +6893,7 @@ business_rules_register:
     \ delivered KPI tables, pinned to a 'Hotel KPIs' dashboard."
   depends_on: []
   evidence_refs:
-  - requirement:1a694680-818b-4f1d-981b-ae3189d6043a
+  - requirement:d9f777b3-2805-4d44-a23c-d26573a7c8be
   implementation: null
   required_for_delivery: true
 - id: unresolved.bd4a2c9e6e71fa9a5a2b

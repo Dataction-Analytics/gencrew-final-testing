@@ -1,8 +1,8 @@
 {
-  "requirement_id": "1a694680-818b-4f1d-981b-ae3189d6043a",
+  "requirement_id": "d9f777b3-2805-4d44-a23c-d26573a7c8be",
   "tenant_id": "360105d5-0a1a-4134-968f-533159d5582c",
-  "ontology_revision": "58ba9f86-8e0c-452a-8ea7-cd753256b76c",
-  "ontology_digest": "caade178402bb2a92dace58fd9a402dbdb75af29c6b5478a630882f271e0cce5",
+  "ontology_revision": "7f3f835b-0506-464f-9b47-b7188cce0e27",
+  "ontology_digest": "43d6d1ffffe519d792381ed26d62f25ba68a75ca0b6f04a5fb05a5520c1aed3d",
   "active_ids": [
     "entity.batch_load_audit",
     "entity.cancellation",
@@ -195,6 +195,7 @@
     "unresolved.b0b2bae3d7bca0d031bf",
     "unresolved.b49e08c9b40b7a63ec7d",
     "unresolved.bac9153fd89cc33bb7a8",
+    "unresolved.bd46b456689f4dd8adc2",
     "unresolved.bd4a2c9e6e71fa9a5a2b",
     "unresolved.c13046140687fce635f5",
     "unresolved.c5406d765249d52d6ca7",
@@ -202,7 +203,6 @@
     "unresolved.c606117dfc899a5440bc",
     "unresolved.c707a9126e97e6ebf16c",
     "unresolved.c8c492a49973008560f0",
-    "unresolved.ccaaf36aee51d1af9b44",
     "unresolved.cec846013d8077d2be5c",
     "unresolved.d0819e6de384a31160fb",
     "unresolved.d08e8137aa3b7fee263a",
@@ -256,5 +256,5 @@
     "vocab.source_system",
     "vocab.star_rating"
   ],
-  "evidence_digest": "47b39b2210b81b4e7f5e0d7df34b82ddbf3eaad8987094729a84c4cb15189516"
+  "evidence_digest": "5d694d1aeabd2941ada7ac0deb45abe01bbaadc795cc7c8e03e1a7b4d7798210"
 }

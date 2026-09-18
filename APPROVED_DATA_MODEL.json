@@ -13,7 +13,7 @@
         "denominator": "",
         "evidence_refs": [
           "ontology-upload:fc63b28958a292918871",
-          "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.total_bookings",
+          "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.total_bookings",
           "tech:d336d653cc0e24fade0b974334f7d9df"
         ]
       },
@@ -28,7 +28,7 @@
         "denominator": "",
         "evidence_refs": [
           "ontology-upload:fc63b28958a292918871",
-          "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.total_revenue",
+          "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.total_revenue",
           "tech:16e71761eec8648c4bc9c47478ef0d85"
         ]
       },
@@ -43,7 +43,7 @@
         "denominator": "SUM(rooms_available)",
         "evidence_refs": [
           "ontology-upload:fc63b28958a292918871",
-          "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.occupancy_pct",
+          "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.occupancy_pct",
           "tech:66a96ce04759ae4c0f695bd50f2de94e"
         ]
       },
@@ -57,6 +57,8 @@
         "rationale": "Average revenue per occupied room. Calculated as room_revenue / rooms_sold from daily hotel performance records. Must use the same hotel-day performance records as Occupancy % and RevPAR per requirement. Uses fact_daily_hotel_performance with denominator guard. Aggregates by hotel and month. Currency per open question.",
         "denominator": "SUM(rooms_sold)",
         "evidence_refs": [
+          "ontology-upload:fc63b28958a292918871",
+          "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.adr",
           "tech:66a96ce04759ae4c0f695bd50f2de94e"
         ]
       },
@@ -70,6 +72,8 @@
         "rationale": "Revenue per available room regardless of occupancy. Calculated as room_revenue / rooms_available from daily hotel performance records. Must use the same hotel-day performance records as Occupancy % and ADR per requirement. Uses fact_daily_hotel_performance with denominator guard. Aggregates by hotel and month. Currency per open question.",
         "denominator": "SUM(rooms_available)",
         "evidence_refs": [
+          "ontology-upload:fc63b28958a292918871",
+          "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.revpar",
           "tech:66a96ce04759ae4c0f695bd50f2de94e"
         ]
       },
@@ -84,7 +88,7 @@
         "denominator": "COUNT(DISTINCT reservation_id)",
         "evidence_refs": [
           "ontology-upload:fc63b28958a292918871",
-          "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.cancellation_pct",
+          "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.cancellation_pct",
           "tech:d336d653cc0e24fade0b974334f7d9df"
         ]
       },
@@ -99,7 +103,7 @@
         "denominator": "",
         "evidence_refs": [
           "ontology-upload:fc63b28958a292918871",
-          "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.average_stay",
+          "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.average_stay",
           "tech:d336d653cc0e24fade0b974334f7d9df"
         ]
       },
@@ -114,7 +118,7 @@
         "denominator": "COUNT(DISTINCT reservation_id)",
         "evidence_refs": [
           "ontology-upload:fc63b28958a292918871",
-          "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.repeat_guest_pct",
+          "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.repeat_guest_pct",
           "tech:d336d653cc0e24fade0b974334f7d9df"
         ]
       },
@@ -129,7 +133,7 @@
         "denominator": "COUNT(DISTINCT reservation_id)",
         "evidence_refs": [
           "ontology-upload:fc63b28958a292918871",
-          "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.no_show_pct",
+          "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.no_show_pct",
           "tech:d336d653cc0e24fade0b974334f7d9df"
         ]
       },
@@ -144,7 +148,7 @@
         "denominator": "",
         "evidence_refs": [
           "ontology-upload:fc63b28958a292918871",
-          "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.revenue_by_channel",
+          "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.revenue_by_channel",
           "tech:d336d653cc0e24fade0b974334f7d9df"
         ]
       },
@@ -159,7 +163,7 @@
         "denominator": "",
         "evidence_refs": [
           "ontology-upload:fc63b28958a292918871",
-          "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.rooms_unsold",
+          "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.rooms_unsold",
           "tech:66a96ce04759ae4c0f695bd50f2de94e"
         ]
       },
@@ -174,7 +178,7 @@
         "denominator": "",
         "evidence_refs": [
           "ontology-upload:fc63b28958a292918871",
-          "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.average_review_score",
+          "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.average_review_score",
           "tech:9b00166f912b85e4985cae6444468c85"
         ]
       }
@@ -653,7 +657,7 @@
       "housekeeping_tasks": "Operational fact for housekeeping performance tracking. Not required for declared 12 KPIs.",
       "room_inventory_daily": "Daily room availability snapshot. Inventory measures are present in fact_daily_hotel_performance which is the approved source for Occupancy %, ADR and RevPAR KPIs per requirement."
     },
-    "fingerprint": "48a3c3183f65b309ee6dddd3a7e360c1075427080d9bf1b920168de90a9a266c",
+    "fingerprint": "f97a5b518d95b56d4e6567a2ba0dcce52a03cd579002b535b45c366225e8e786",
     "kpi_coverage": {
       "No Show %": "fact_reservations",
       "Occupancy %": "fact_daily_hotel_performance",
@@ -672,22 +676,22 @@
       "Currency-valued KPIs remain at source-currency grain because no approved FX source exists.",
       "Repeat Guest % uses the approved is_repeat_guest business flag; the measured source contradiction remains recorded for remediation."
     ],
-    "ontology_digest": "caade178402bb2a92dace58fd9a402dbdb75af29c6b5478a630882f271e0cce5"
+    "ontology_digest": "43d6d1ffffe519d792381ed26d62f25ba68a75ca0b6f04a5fb05a5520c1aed3d"
   },
   "stage": "Gold Layer data model approved",
   "status": "model_approved",
   "history": [
     {
-      "at": "2026-09-18T06:18:52.619321+00:00",
+      "at": "2026-09-18T06:35:50.248321+00:00",
       "gate": "silver",
       "note": "",
       "actor": "sumit.tech03@gmail.com",
       "model": null,
       "decision": "approved",
-      "revision": "6e0ebf12-1404-4fa3-a0c3-cc3cf20d25f2"
+      "revision": "46398b43-5b7f-4a84-b35a-6ee652c42cb1"
     },
     {
-      "at": "2026-09-18T06:19:28.668252+00:00",
+      "at": "2026-09-18T06:36:26.106805+00:00",
       "gate": "model",
       "note": "",
       "actor": "sumit.tech03@gmail.com",
@@ -704,7 +708,7 @@
             "denominator": "",
             "evidence_refs": [
               "ontology-upload:fc63b28958a292918871",
-              "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.total_bookings",
+              "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.total_bookings",
               "tech:d336d653cc0e24fade0b974334f7d9df"
             ]
           },
@@ -719,7 +723,7 @@
             "denominator": "",
             "evidence_refs": [
               "ontology-upload:fc63b28958a292918871",
-              "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.total_revenue",
+              "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.total_revenue",
               "tech:16e71761eec8648c4bc9c47478ef0d85"
             ]
           },
@@ -734,7 +738,7 @@
             "denominator": "SUM(rooms_available)",
             "evidence_refs": [
               "ontology-upload:fc63b28958a292918871",
-              "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.occupancy_pct",
+              "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.occupancy_pct",
               "tech:66a96ce04759ae4c0f695bd50f2de94e"
             ]
           },
@@ -748,6 +752,8 @@
             "rationale": "Average revenue per occupied room. Calculated as room_revenue / rooms_sold from daily hotel performance records. Must use the same hotel-day performance records as Occupancy % and RevPAR per requirement. Uses fact_daily_hotel_performance with denominator guard. Aggregates by hotel and month. Currency per open question.",
             "denominator": "SUM(rooms_sold)",
             "evidence_refs": [
+              "ontology-upload:fc63b28958a292918871",
+              "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.adr",
               "tech:66a96ce04759ae4c0f695bd50f2de94e"
             ]
           },
@@ -761,6 +767,8 @@
             "rationale": "Revenue per available room regardless of occupancy. Calculated as room_revenue / rooms_available from daily hotel performance records. Must use the same hotel-day performance records as Occupancy % and ADR per requirement. Uses fact_daily_hotel_performance with denominator guard. Aggregates by hotel and month. Currency per open question.",
             "denominator": "SUM(rooms_available)",
             "evidence_refs": [
+              "ontology-upload:fc63b28958a292918871",
+              "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.revpar",
               "tech:66a96ce04759ae4c0f695bd50f2de94e"
             ]
           },
@@ -775,7 +783,7 @@
             "denominator": "COUNT(DISTINCT reservation_id)",
             "evidence_refs": [
               "ontology-upload:fc63b28958a292918871",
-              "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.cancellation_pct",
+              "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.cancellation_pct",
               "tech:d336d653cc0e24fade0b974334f7d9df"
             ]
           },
@@ -790,7 +798,7 @@
             "denominator": "",
             "evidence_refs": [
               "ontology-upload:fc63b28958a292918871",
-              "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.average_stay",
+              "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.average_stay",
               "tech:d336d653cc0e24fade0b974334f7d9df"
             ]
           },
@@ -805,7 +813,7 @@
             "denominator": "COUNT(DISTINCT reservation_id)",
             "evidence_refs": [
               "ontology-upload:fc63b28958a292918871",
-              "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.repeat_guest_pct",
+              "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.repeat_guest_pct",
               "tech:d336d653cc0e24fade0b974334f7d9df"
             ]
           },
@@ -820,7 +828,7 @@
             "denominator": "COUNT(DISTINCT reservation_id)",
             "evidence_refs": [
               "ontology-upload:fc63b28958a292918871",
-              "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.no_show_pct",
+              "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.no_show_pct",
               "tech:d336d653cc0e24fade0b974334f7d9df"
             ]
           },
@@ -835,7 +843,7 @@
             "denominator": "",
             "evidence_refs": [
               "ontology-upload:fc63b28958a292918871",
-              "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.revenue_by_channel",
+              "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.revenue_by_channel",
               "tech:d336d653cc0e24fade0b974334f7d9df"
             ]
           },
@@ -850,7 +858,7 @@
             "denominator": "",
             "evidence_refs": [
               "ontology-upload:fc63b28958a292918871",
-              "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.rooms_unsold",
+              "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.rooms_unsold",
               "tech:66a96ce04759ae4c0f695bd50f2de94e"
             ]
           },
@@ -865,7 +873,7 @@
             "denominator": "",
             "evidence_refs": [
               "ontology-upload:fc63b28958a292918871",
-              "ontology:1a694680-818b-4f1d-981b-ae3189d6043a:kpi.average_review_score",
+              "ontology:d9f777b3-2805-4d44-a23c-d26573a7c8be:kpi.average_review_score",
               "tech:9b00166f912b85e4985cae6444468c85"
             ]
           }
@@ -1344,7 +1352,7 @@
           "housekeeping_tasks": "Operational fact for housekeeping performance tracking. Not required for declared 12 KPIs.",
           "room_inventory_daily": "Daily room availability snapshot. Inventory measures are present in fact_daily_hotel_performance which is the approved source for Occupancy %, ADR and RevPAR KPIs per requirement."
         },
-        "fingerprint": "48a3c3183f65b309ee6dddd3a7e360c1075427080d9bf1b920168de90a9a266c",
+        "fingerprint": "f97a5b518d95b56d4e6567a2ba0dcce52a03cd579002b535b45c366225e8e786",
         "kpi_coverage": {
           "No Show %": "fact_reservations",
           "Occupancy %": "fact_daily_hotel_performance",
@@ -1363,14 +1371,14 @@
           "Currency-valued KPIs remain at source-currency grain because no approved FX source exists.",
           "Repeat Guest % uses the approved is_repeat_guest business flag; the measured source contradiction remains recorded for remediation."
         ],
-        "ontology_digest": "caade178402bb2a92dace58fd9a402dbdb75af29c6b5478a630882f271e0cce5"
+        "ontology_digest": "43d6d1ffffe519d792381ed26d62f25ba68a75ca0b6f04a5fb05a5520c1aed3d"
       },
       "decision": "approved",
-      "revision": "6e0ebf12-1404-4fa3-a0c3-cc3cf20d25f2"
+      "revision": "46398b43-5b7f-4a84-b35a-6ee652c42cb1"
     }
   ],
   "prepared": {
-    "root": "/app/workspaces/.gencrew_modeling/360105d5-0a1a-4134-968f-533159d5582c/1a694680-818b-4f1d-981b-ae3189d6043a/6e0ebf12-1404-4fa3-a0c3-cc3cf20d25f2/gencrew-transformation-dbt",
+    "root": "/app/workspaces/.gencrew_modeling/360105d5-0a1a-4134-968f-533159d5582c/d9f777b3-2805-4d44-a23c-d26573a7c8be/46398b43-5b7f-4a84-b35a-6ee652c42cb1/gencrew-transformation-dbt",
     "files": [
       "models/business/business_batch_load_audit.sql",
       "models/business/business_cancellations.sql",
@@ -2388,34 +2396,26 @@
       "stay_nights"
     ]
   },
-  "revision": "6e0ebf12-1404-4fa3-a0c3-cc3cf20d25f2",
-  "file_edits": [
-    {
-      "at": "2026-09-18T06:18:47.837095Z",
-      "path": "models/business/business_batch_load_audit.sql",
-      "actor": "sumit.tech03@gmail.com",
-      "stage": "prepared"
-    }
-  ],
+  "revision": "46398b43-5b7f-4a84-b35a-6ee652c42cb1",
   "crew_events": [
-    "6e0ebf12-1404-4fa3-a0c3-cc3cf20d25f2:silver_generating::",
-    "6e0ebf12-1404-4fa3-a0c3-cc3cf20d25f2:silver_review::cc2656a854b77f19103ac0c3b3624326eb40478fee49f79859c92196ec2a9d8b",
-    "6e0ebf12-1404-4fa3-a0c3-cc3cf20d25f2:silver_approved::cc2656a854b77f19103ac0c3b3624326eb40478fee49f79859c92196ec2a9d8b",
-    "6e0ebf12-1404-4fa3-a0c3-cc3cf20d25f2:model_review:8dd01b0494ad4d9d9ed36ba4ebcb47728188507a0be36c1e3666f3032047912c:cc2656a854b77f19103ac0c3b3624326eb40478fee49f79859c92196ec2a9d8b",
-    "6e0ebf12-1404-4fa3-a0c3-cc3cf20d25f2:model_approved:8dd01b0494ad4d9d9ed36ba4ebcb47728188507a0be36c1e3666f3032047912c:cc2656a854b77f19103ac0c3b3624326eb40478fee49f79859c92196ec2a9d8b"
+    "46398b43-5b7f-4a84-b35a-6ee652c42cb1:silver_generating::",
+    "46398b43-5b7f-4a84-b35a-6ee652c42cb1:silver_review::cc2656a854b77f19103ac0c3b3624326eb40478fee49f79859c92196ec2a9d8b",
+    "46398b43-5b7f-4a84-b35a-6ee652c42cb1:silver_approved::cc2656a854b77f19103ac0c3b3624326eb40478fee49f79859c92196ec2a9d8b",
+    "46398b43-5b7f-4a84-b35a-6ee652c42cb1:model_review:a749f168151f09ea5d1333ce6e5e62fa4a8d4b9fa4e746da0d4b66cf56eac735:cc2656a854b77f19103ac0c3b3624326eb40478fee49f79859c92196ec2a9d8b",
+    "46398b43-5b7f-4a84-b35a-6ee652c42cb1:model_approved:a749f168151f09ea5d1333ce6e5e62fa4a8d4b9fa4e746da0d4b66cf56eac735:cc2656a854b77f19103ac0c3b3624326eb40478fee49f79859c92196ec2a9d8b"
   ],
-  "fingerprint": "9096021d2478c345fc3dee14836863a9ed43e9de559280c4910a321565f26d54",
-  "model_digest": "8dd01b0494ad4d9d9ed36ba4ebcb47728188507a0be36c1e3666f3032047912c",
+  "fingerprint": "687b334bb75d863f15712e286b82b8452ca5e711bc84e131025db37df8996be0",
+  "model_digest": "a749f168151f09ea5d1333ce6e5e62fa4a8d4b9fa4e746da0d4b66cf56eac735",
   "model_approval": {
-    "at": "2026-09-18T06:19:28.668271+00:00",
+    "at": "2026-09-18T06:36:26.106824+00:00",
     "actor": "sumit.tech03@gmail.com",
-    "digest": "8dd01b0494ad4d9d9ed36ba4ebcb47728188507a0be36c1e3666f3032047912c"
+    "digest": "a749f168151f09ea5d1333ce6e5e62fa4a8d4b9fa4e746da0d4b66cf56eac735"
   },
   "model_provider": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
-  "ontology_digest": "caade178402bb2a92dace58fd9a402dbdb75af29c6b5478a630882f271e0cce5",
+  "ontology_digest": "43d6d1ffffe519d792381ed26d62f25ba68a75ca0b6f04a5fb05a5520c1aed3d",
   "prepared_digest": "cc2656a854b77f19103ac0c3b3624326eb40478fee49f79859c92196ec2a9d8b",
   "silver_approval": {
-    "at": "2026-09-18T06:18:52.619341+00:00",
+    "at": "2026-09-18T06:35:50.248339+00:00",
     "actor": "sumit.tech03@gmail.com",
     "digest": "cc2656a854b77f19103ac0c3b3624326eb40478fee49f79859c92196ec2a9d8b"
   },
@@ -2438,7 +2438,7 @@
     ],
     "warehouse_tests": "Not run; live uniqueness, reconciliation and KPI values require warehouse execution."
   },
-  "model_reused_from": "754e191d-8355-41af-ac99-8e4de575012f",
+  "model_reused_from": "1a694680-818b-4f1d-981b-ae3189d6043a",
   "silver_validation": {
     "mode": "static",
     "green": true,
@@ -2451,6 +2451,6 @@
     "errors": [],
     "warehouse_tests": "Not run; generated models have not been executed in Snowflake."
   },
-  "last_crew_event_at": "2026-09-18T06:19:28.670108+00:00",
-  "delivery_claim": 1789712373.7867556
+  "last_crew_event_at": "2026-09-18T06:36:26.108687+00:00",
+  "delivery_claim": 1789713392.6030633
 }
